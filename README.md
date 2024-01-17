@@ -39,7 +39,7 @@ Main analysis scripts and metadata (see details below):
 
 3. R script `03_MR_Risk-DR.R` is performed two-sample MR analysis from `TwoSampleMR` package to evaluate causal relationship between risk factors and DR by defining risk factors as exposures and DR as outcome.
 
-4. R script `04_MR_GM-Risk.R` is performed two-sample MR analysis from `TwoSampleMR` package to evaluate causal relationship between gut microbes and risk factors by defining gut microbe as exposures and risk factors as outcome.
+4. R script `04_MR_GM-Risk.R` is performed two-sample MR analysis from `TwoSampleMR` package to evaluate causal relationship between gut microbes and risk factors by defining gut microbe as exposures and risk factors as outcomes.
 
 5. shell script `05_MVMR.sh` is performed multivariable Mendelian randomization to estimate the effect of DR risk factor on DR (Gut microbes → DR risk factors), adjusting for the effect of corresponding gut microbe.
 
